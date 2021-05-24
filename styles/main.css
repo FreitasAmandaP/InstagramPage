@@ -1,0 +1,189 @@
+:root{
+    --background:#FAFAFA;
+    --blue: #0098f8;
+    --border: #bdbdbd;
+    }
+    
+    
+    
+    *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    }
+    
+    
+    
+    
+    html, body{
+    width: 100vw;
+    height: 100vh;
+    }
+    
+    
+    
+    body{
+    background-color: var(--background);
+    display:flex
+    }
+    
+    
+    
+    .left-box img{
+    height: 90vh;
+    max-height: 610px;
+    min-height: 500px;
+    }
+    
+    
+    
+    .left-box{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    align-items: center;
+    }
+    
+    
+    
+    
+    .right-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    }
+    
+    
+    
+    
+    
+    .box-login,
+    .box-options{
+    background-color: white;
+    border: 1px solid var(--border);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    
+    
+    
+    .box-login{
+    
+    height: 310px;
+    justify-content: space-evenly;
+    }
+    
+    
+    
+    .box-login > h1{
+    font-size: 36px;
+    }
+    
+    
+    
+    .box-login > p{
+    width: 86px;
+    height: 86px;
+    background-color: var(--border);
+    border-radius: 50%;
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    .box-login .button-continue,
+    .box-login .button-remove {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    }
+    
+    .box-login .button-continue{
+    padding: 5px 8px;
+    background: var(--blue);
+    color: white;
+    border-radius: 5px;
+    
+    }
+    
+    
+    .box-login .button-remove{
+    margin-top: -20px;
+    font-size: 16px;
+    color: var(--blue);
+    background: none;
+    
+    }
+    
+
+    .box-options{
+    padding: 20px 0px;
+    margin: 10px 0px 20px;
+    }
+    
+    
+    .box-options .message{
+    margin-bottom: 8px;
+    color: #8e8e8e;
+    cursor: pointer;
+    
+    }
+    
+    
+    .box-options .options{
+    font-weight: 500;
+    
+    }
+    
+    
+    
+    .box-options span{
+    color: var(--blue);
+    cursor: pointer;
+    }
+
+    
+    .footer{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    .footer > p{
+    margin-bottom: 10px;
+    
+    }
+    
+    .footer .buttons-box{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    }
+    
+    .footer .buttons-box button{
+    width: 48%;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    
+    }
+
+    .foto{ width: 86px; height: 86px; border-radius: 50%;}

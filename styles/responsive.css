@@ -1,0 +1,18 @@
+@media(max-width:920px){
+
+    .left-box{
+
+        display: none;
+padding-right: 0;
+    }
+
+
+    .right-box{
+
+        align-items: center;
+
+        width: 100%;
+
+    }
+
+}
